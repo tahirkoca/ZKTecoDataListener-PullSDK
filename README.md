@@ -28,8 +28,8 @@ Cihaz üzerindeki parmak izi, kart veya şifre ile yapılan giriş-çıkış har
 Lütfen kaynak kod içerisindeki **IP Adresi** ve **Cihaz Şifresini (passwd)** kendi ağ güvenliğinize göre güncelleyiniz. Şifresiz cihaz kullanımı güvenlik riski oluşturabilir.
 
 - **Dosya:** `App.config`
-`connectionString="Server=127.0.0.1;Database=CeyPASS;User Id=sa;Password=YOUR_PASSWORD_HERE;"`
-Veritabanı bağlantı şifresi güvenlik nedeniyle gizlenmiştir. Projeyi çalıştırmadan önce kendi **SQL Server şifrenizi** giriniz.
+`connectionString="Server=YOUR_SERVER_IP;Database=YOUR_DATABASE_NAME;User Id=YOUR_USERNAME;Password=YOUR_PASSWORD_HERE;"`
+Veritabanı bağlantı bilgileri güvenlik nedeniyle gizlenmiştir. Projeyi çalıştırmadan önce kendi **SQL Server bilgilerinizi** giriniz.
 
 ---
 
@@ -59,8 +59,8 @@ It captures attendance records (fingerprint, card, or password) instantly, saves
 Please update the **IP Address** and **Device Password (passwd)** in the source code according to your network security policies. Using devices without a password may pose a security risk.
 
 - **File:** `App.config`
-`connectionString="Server=127.0.0.1;Database=CeyPASS;User Id=sa;Password=YOUR_PASSWORD_HERE;"`
-Database password is hidden for security. Please enter your own **SQL Server password** before running the project.
+`connectionString="Server=YOUR_SERVER_IP;Database=YOUR_DATABASE_NAME;User Id=YOUR_USERNAME;Password=YOUR_PASSWORD_HERE;"`
+Database connection details are hidden for security. Please enter your own **SQL Server details** before running the project.
 
 ---
 
